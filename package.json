@@ -1,0 +1,39 @@
+{
+  "name": "geo_feedback",
+  "version": "1.0.0",
+  "description": "MegaChat - упрощенный аналог Slack.",
+  "main": "gulpfile.babel.js",
+  "scripts": {
+    "dev": "NODE_ENV=development gulp",
+    "prod": "NODE_ENV=production gulp",
+    "server":"node server.js",
+    "stat": "webpack --json --profile >stat.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexeyErofeyev/GeoFeedback.git"
+  },
+  "author": "Alexey Erofeyev",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "babel-core": "^6.7.6",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.7.4",
+    "babel-preset-es2015": "^6.6.0",
+    "browser-sync": "^2.11.2",
+    "cssnano": "^3.5.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-jsdoc": "^0.1.5",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^6.1.0",
+    "gulp-stylus": "^2.3.1",
+    "postcss-alias": "^0.2.2",
+    "postcss-animation": "0.0.6",
+    "rupture": "^0.6.1",
+    "webpack": "^1.12.15",
+    "webpack-stream": "^3.1.0"
+  }
+}
